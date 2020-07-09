@@ -1,0 +1,622 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-09T22:57:08.856Z",
+        "line": 9,
+        "name": "TC02_High Riskprofile able to calculate projected balance at retirement",
+        "description": "",
+        "id": "calculate-projected-balance;tc02-high-riskprofile-able-to-calculate-projected-balance-at-retirement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10513569300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on KiwisaverretirementCalculator",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_is_on_KiwisaverretirementCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300001800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters Current age is 30years",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_enters_Current_age_is_30years()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597001700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters Employment status as employed",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_enters_Employment_status_as_employed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225996900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters annual salary 82000",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_enters_annual_salary_82000()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178999500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters Kiwisaver Contriubtion 4percentage",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_enters_Kiwisaver_Contriubtion_4percentage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267003600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user chooses high risk profile",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_chooses_high_risk_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182000600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Clicks on View your Kiwisaver Retirement projection",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_Clicks_on_View_your_Kiwisaver_Retirement_projection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151999100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User able to view Summary",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.user_able_to_view_Summary()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4183003900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Checks the Summary Fields",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalanceSteps.checks_the_Summary_Fields()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@majorpriority"
+          }
+        ]
+      }
+    ],
+    "name": "Calculate Projected balance",
+    "description": "  As a product Owner,I want that the KiwiSaver Retirement Calculator users are able\n   to calculate what their KiwiSaver projected balance would be at retirement",
+    "id": "calculate-projected-balance",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/HighRiskProfileCalculate%20projected%20balance.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "User is on KiwiSaverRetirementCalculator page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-07-09T22:57:25.601Z",
+        "line": 10,
+        "name": "TC01_User clicks on infomration icon besides Current age",
+        "description": "",
+        "id": "westpac-kiwisaver-scheme-retirement-calculator;tc01-user-clicks-on-infomration-icon-besides-current-age",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8090047400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on KiwiSaver Retirement Calculator page",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.user_is_on_KiwiSaver_Retirement_Calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 557999200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks information icon besides Current age",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.user_clicks_information_icon_besides_Current_age()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68998700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "valid help text  message for age  displayed",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.valid_help_text_message_for_age_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142000100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on Employment status icon",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.user_clicks_on_Employment_status_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54999300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "employment status help text displayed",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.employment_status_help_text_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113001200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Current KiwiSavebalance icon",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.user_clicks_on_Current_KiwiSavebalance_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57009800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kiwisaver balance information is dispalyed",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.kiwisaver_balance_information_is_dispalyed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87997200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on voluntary contributions help icon",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.user_clicks_on_voluntary_contributions_help_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55999200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "volunatry contribution infromation is displayed",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.volunatry_contribution_infromation_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115003700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on RiskProfile icon",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.user_clicks_on_RiskProfile_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41997900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "riskProfile information help information dsiplayed",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.riskprofile_information_help_information_dsiplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107000300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on savings goal at retirement icon",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.user_clicks_on_savings_goal_at_retirement_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226003800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "savings goal at retirement help information is displayed",
+            "match": {
+              "location": "StepDefinitions.HighRiskProfileCalculateProjectedBalance.savings_goal_at_retirement_help_information_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@majorpriority"
+          }
+        ]
+      }
+    ],
+    "name": "Westpac KiwiSaver Scheme Retirement Calculator",
+    "description": "\t  As a Product Owner \n\t  I want that while using the KiwiSaver Retirement Calculator all fields in the calculator have got the information icon present\n\t  So that The user is able to get a clear understanding of what needs to be entered in the field",
+    "id": "westpac-kiwisaver-scheme-retirement-calculator",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/KiwiSaverCalculatorSelection.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-09T22:57:35.343Z",
+        "line": 10,
+        "name": "TestCase4_NotEEmployed able to view Projected projected at his retirement",
+        "description": "",
+        "id": "as-a-product-owner;testcase4-noteemployed-able-to-view-projected-projected-at-his-retirement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8937003200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Not Employed is on KiwisaverretirementCalculator",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_is_on_KiwisaverretirementCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148001800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Not Employed enters age 55Years",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_enters_age_55Years()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 540998400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Not Employed enters Employment status as Not-employed",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_enters_Employment_status_as_Not_employed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 446999200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Not Employed enters kiwisaver balance $140000",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_enters_kiwisaver_balance_$140000()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 672526600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Not Employed enters voluntary contribution $10  annually",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_enters_voluntary_contribution_$10_annually()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 359005400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Not Employed chooses medium risk profile",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_chooses_medium_risk_profile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276999100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Not Employed saving goals requirement $200000",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_saving_goals_requirement_$200000()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192001100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Not Employed able to click KiwiSaver Retirement projection",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_able_to_click_KiwiSaver_Retirement_projection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106991600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Not Employed able view Summary",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_able_view_Summary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4188624200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Not Employed able to check projected balance",
+            "match": {
+              "location": "StepDefinitions.NotEmployedCalculateProjectedBalanceSteps.not_Employed_able_to_check_projected_balance()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@majorpriority"
+          }
+        ]
+      }
+    ],
+    "name": "As a Product Owner",
+    "description": "I want that the KiwiSaver Retirement Calculator users are able to calculate what their KiwiSaver projected balance would be at retirement\nSo that \nThe users are able to plan their investments better.",
+    "id": "as-a-product-owner",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/NotEmployedCalculateProjectedBalance.feature",
+    "tags": []
+  },
+  {
+    "line": 6,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-09T22:57:51.234Z",
+        "line": 13,
+        "name": "TestCase3_SelfEmployed able to view Projected projected at his retirement",
+        "description": "",
+        "id": "as-a-product-owner;testcase3-selfemployed-able-to-view-projected-projected-at-his-retirement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8135060500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "self Employed is on KiwisaverretirementCalculator",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_is_on_KiwisaverretirementCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139000300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "self Employed enters age 45Years",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_enters_age_45Years()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674000900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "self Employed enters Employment status as self-Employed",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_enters_Employment_status_as_self_Employed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202000900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "self Employed enters kiwisaver balance 100000",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_enters_kiwisaver_balance_100000()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 402997900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "self Employed enters voluntary contribution $90 fortnightly",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_enters_voluntary_contribution_$90_fortnightly()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334995500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "self Employed chooses medium risk",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_chooses_medium_risk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188001500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "self Employed saving goals requirement $290000",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_saving_goals_requirement_$290000()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123999600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "self Employed able to click KiwiSaver Retirement projection",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_able_to_click_KiwiSaver_Retirement_projection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36996600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "self Employed able view Summary",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_able_view_Summary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298000600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "self Employed able to check projected balance",
+            "match": {
+              "location": "StepDefinitions.SelfEmployedCalculateProjectedBalanceSteps.self_Employed_able_to_check_projected_balance()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@majorpriority"
+          }
+        ]
+      }
+    ],
+    "name": "As a Product Owner",
+    "description": "I want that the KiwiSaver Retirement Calculator users are able to calculate what their KiwiSaver projected balance would be at retirement\nSo that \nThe users are able to plan their investments better.",
+    "id": "as-a-product-owner",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SelfEmployedCalculateProjectedBalance.feature",
+    "tags": []
+  }
+]

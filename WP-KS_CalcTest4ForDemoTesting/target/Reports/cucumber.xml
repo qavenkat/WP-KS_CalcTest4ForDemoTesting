@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="53.955">
+    <testcase classname="Calculate Projected balance" name="TC02_High Riskprofile able to calculate projected balance at retirement" time="16.709">
+        <system-out>
+            <![CDATA[Given user is on KiwisaverretirementCalculator..............................passed
+And user enters Current age is 30years......................................passed
+And user enters Employment status as employed...............................passed
+And user enters annual salary 82000.........................................passed
+And user enters Kiwisaver Contriubtion 4percentage..........................passed
+And user chooses high risk profile..........................................passed
+When user Clicks on View your Kiwisaver Retirement projection...............passed
+Then User able to view Summary..............................................passed
+Then Checks the Summary Fields..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Westpac KiwiSaver Scheme Retirement Calculator" name="TC01_User clicks on infomration icon besides Current age" time="9.73">
+        <system-out>
+            <![CDATA[Given user is on KiwiSaver Retirement Calculator page.......................passed
+When user clicks information icon besides Current age.......................passed
+Then valid help text  message for age  displayed............................passed
+When user clicks on Employment status icon..................................passed
+Then employment status help text displayed..................................passed
+When user clicks on Current KiwiSavebalance icon............................passed
+Then kiwisaver balance information is dispalyed.............................passed
+When user clicks on voluntary contributions help icon.......................passed
+Then volunatry contribution infromation is displayed........................passed
+When user clicks on RiskProfile icon........................................passed
+Then riskProfile information help information dsiplayed.....................passed
+When user clicks on savings goal at retirement icon.........................passed
+Then savings goal at retirement help information is displayed...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a Product Owner" name="TestCase4_NotEEmployed able to view Projected projected at his retirement" time="15.884">
+        <system-out>
+            <![CDATA[Given Not Employed is on KiwisaverretirementCalculator......................passed
+Given Not Employed enters age 55Years.......................................passed
+Given Not Employed enters Employment status as Not-employed.................passed
+Given Not Employed enters kiwisaver balance $140000.........................passed
+Given Not Employed enters voluntary contribution $10  annually..............passed
+Given Not Employed chooses medium risk profile..............................passed
+Given Not Employed saving goals requirement $200000.........................passed
+Then Not Employed able to click KiwiSaver Retirement projection.............passed
+And Not Employed able view Summary..........................................passed
+And Not Employed able to check projected balance............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a Product Owner" name="TestCase3_SelfEmployed able to view Projected projected at his retirement" time="10.546">
+        <system-out>
+            <![CDATA[Given self Employed is on KiwisaverretirementCalculator.....................passed
+Given self Employed enters age 45Years......................................passed
+Given self Employed enters Employment status as self-Employed...............passed
+Given self Employed enters kiwisaver balance 100000.........................passed
+Given self Employed enters voluntary contribution $90 fortnightly...........passed
+Given self Employed chooses medium risk.....................................passed
+Given self Employed saving goals requirement $290000........................passed
+Then self Employed able to click KiwiSaver Retirement projection............passed
+And self Employed able view Summary.........................................passed
+And self Employed able to check projected balance...........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
