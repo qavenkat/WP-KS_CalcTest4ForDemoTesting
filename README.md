@@ -11,7 +11,7 @@ Contains the test runner class and function to execute all tests
 * Features:  
 Feature file containing test scenarios 
 * StepDefinitions:  
-Contains backgroun, hooks, and step definitions for executing tests
+Contains background, hooks, and step definitions for executing tests
 ##Selenium WebDriver
 
 This project is configured to use Chrome WebDriver's.  The default is set to Chrome.  The WebDriver's added to this project to run in windows  
