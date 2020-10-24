@@ -14,7 +14,7 @@ Feature file containing test scenarios
 Contains background, hooks, and step definitions for executing tests
 ##Selenium WebDriver
 
-This project is configured to use Chrome WebDriver's.  The default is set to Chrome.  The WebDriver's added to this project to run in windows  
+This project is configured to use Chrome WebDriver.  The default is set to Chrome.  The WebDriver's added to this project to run in windows  
 Page Object Model
 -----
 Page object model is used in this framework.  Each web page will have its own java.class and within each class contains page element mappings and functions / methods used to interact /verify a specific web page under test.  
